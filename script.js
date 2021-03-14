@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["...loading", " My name is Le Phan Tuan Anh, I am currently studying 3rd year at FPT Greenwich. My hobby is to travel in many places, to many lands to know the culture, people, scenery. I also like programming like Dev Websitie, ... As a photo lover, I love the beauty of the art of photography, ... Hi thanks for watching things about me."],
+        strings: ["...", " My name is Le Phan Tuan Anh, I am currently studying 3rd year at FPT Greenwich. I am currently doing Front-End internship at FPT SoftWare and my goal is to become a full-time employee here. My hobbies are traveling to many places, to many lands to know the culture, people and scenery. I also love programming Websitie, because it helps me to practice my sophistication and aesthetics."],
         typeSpeed: 120,
         backSpeed: 60,
         loop: true
