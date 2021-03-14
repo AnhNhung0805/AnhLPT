@@ -1,0 +1,40 @@
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 460px;
+  border-radius: 6px;
+  border-bottom-width: 2px;
+  transition: all 0.8s ease;
+}
+
+div.gallery:hover {
+  transform: scale(1.05);
+  background-color: rgba(250, 248, 248, 0.2)
+}
+
+div.gallery img {
+  width: 100%;
+  height: 250px;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: brown;
+}
+body{
+  width: 1450px;
+  height: auto;
+  margin: 0 auto;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  text-align: center;
+  color: brown;
+}
+.typing, .typing2{
+  color: rgb(255, 255, 255);
+}
