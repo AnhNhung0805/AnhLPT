@@ -57,12 +57,12 @@
                 About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="Anha.jpg" alt="">
+                    <img src="img/Anha.jpg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">
                         Hello Everybody <span class="typing-2"></span></div>
-                    <a href="Anhlpt.pdf">Download CV</a>
+                    <a href="img/Anhlpt.pdf">Download CV</a>
                 </div>
             </div>
         </div>
@@ -198,7 +198,7 @@
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="Anh.jpg" alt="">
+                        <img src="img/Anh.jpg" alt="">
                         <div class="text">
                             Le Phan Tuan Anh</div>
                         <a href="http://www.facebook.com">
@@ -207,7 +207,7 @@
                 </div>
                 <div class="card" href="facebook.com">
                     <div class="box">
-                        <img src="Linh.jpg" alt="facebook.com">
+                        <img src="img/Linh.jpg" alt="facebook.com">
                         <div class="text">
                             Ho Duc Linh</div>
                         <a href="http://www.facebook.com">
@@ -216,7 +216,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="thang.jpg" alt="">
+                        <img src="img/thang.jpg" alt="">
                         <div class="text">
                             Pham Van Thang</div>
                         <a href="http://www.facebook.com">
@@ -225,7 +225,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="Vy.jpg" alt="">
+                        <img src="img/Vy.jpg" alt="">
                         <div class="text">
                             Dang The Vy</div>
                         <a href="http://www.facebook.com">
@@ -234,7 +234,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="phuong.jpg" alt="">
+                        <img src="img/phuong.jpg" alt="">
                         <div class="text">
                             Pham Van Phuong</div>
                         <a href="http://www.facebook.com">
