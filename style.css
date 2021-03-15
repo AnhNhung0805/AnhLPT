@@ -172,7 +172,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("123.jpg") no-repeat center;
+    background: url("img/123.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -218,7 +218,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "Itroduce By My Self ";
+    content: "Itroduce";
 }
 .about .about-content .left{
     width: 45%;
@@ -272,7 +272,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "Note: Click Details in Travel to suppise";
+    content: "Note: Click Details";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -309,7 +309,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "Bacsic for my Knowleged";
+    content: "Basic Knowleged";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -400,7 +400,7 @@ section .title::after{
 } */
 /* teams section styling */
 .teams .title::after{
-    content: "Friends in class FED01";
+    content: "Friends class FED01";
 }
 .teams .carousel .card{
     background: #222;
@@ -463,7 +463,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "For Feed Back to Send Gmail";
+    content: "For Feed Back";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
