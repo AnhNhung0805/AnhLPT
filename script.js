@@ -22,10 +22,10 @@ $(document).ready(function(){
         $('html').css("scrollBehavior", "auto");
     });
 
-    $('.navbar .menu li a').click(function(){
-        // applying again smooth scroll on menu items click
-        $('html').css("scrollBehavior", "smooth");
-    });
+        $('.navbar .menu li a').click(function(){
+            // applying again smooth scroll on menu items click
+            $('html').css("scrollBehavior", "smooth");
+        });
 
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
@@ -48,18 +48,18 @@ $(document).ready(function(){
         loop: true
     });
 
-    // owl carousel script
+    // owl carousel script for avatar team =v same story
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
-        autoplayTimeOut: 2000,
+        autoplayTimeOut: 1000,
         autoplayHoverPause: true,
         responsive: {
             0:{
                 items: 1,
                 nav: false
             },
-            600:{
+            500:{
                 items: 2,
                 nav: false
             },
@@ -80,8 +80,45 @@ $(function() {
 });
 
 $('.contact-form').submit((e)=>{
-    e.preventDefault(); //preventing from submitting form
+    // var text = document.querySelector('#fullname').value
+
+    // var gmail = document.querySelector('#gmail').value
+
+    // var subject = document.querySelector('#subject').value
+
+    // let isValidate = true;
+
+    // var err = ''
+
+    // if (!reg.test(fullname).val() == ''){
+       
+    //     err += 'Please ipunt name correct!'
+    //     document.querySelector('.message1').innerHTML = err
+    //     isValidate = false
+
+    // }
+
+    // err = ''
+    // if ($('#gmail').val() == '') {
+    //     err += 'please input sameple text + @ + domain'
+    //     document.querySelector('.message2').innerHTML = err
+    //     isValidate = false
+    // }
+
+    // err = ''
+    // if ($('subject').val() == '') {
+    //     err += 'vui lòng nhập số từ 1 < n < 10'
+    //     document.querySelector('.message3').innerHTML = err
+    //     isValidate = false
+    // }
+    
+    // if (!sValidate) {
+    //     return true
+    // }
+    e.preventDefault("send"); //preventing from submitting form
+    // alert("Send Feedback Success!");
 });
+
 
 $('.send-msg').click(()=>{
     $fullname = $('.fullname').val();

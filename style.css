@@ -57,6 +57,7 @@ section .title{
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
+/* for -- fa libery css */
 section .title::before{
     content: "";
     position: absolute;
@@ -67,6 +68,7 @@ section .title::before{
     background: #111;
     transform: translateX(-50%);
 }
+/* for text */
 section .title::after{
     position: absolute;
     bottom: -8px;
@@ -129,8 +131,9 @@ section .title::after{
 .navbar .menu li a:hover{
     color: rgb(199, 30, 64);
 }
-.navbar.sticky .menu li a:hover{
-    color: #fff;
+/* when scroll until hover */
+.navbar .sticky .menu li a:hover{
+    color: rgb(173, 25, 25);
 }
 
 /* menu btn styling */
@@ -437,8 +440,9 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
-    border-color: #fff;
+    border-color: rgb(70, 71, 148);
 }
+/* click to scroll list avatar */
 .owl-dots{
     text-align: center;
     margin-top: 20px;

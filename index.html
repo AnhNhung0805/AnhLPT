@@ -292,22 +292,28 @@
                     <form action="#">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input id="fullname" type="text" placeholder="Name" required>
+                                <span id="massage1"></span>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input id="mail" type="email" placeholder="Email" required>
+                                <span id="massage2"></span>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input id="subject" type="text" placeholder="Subject" required>
+                            <span id="massage3"></span>
                         </div>
                         <div class="field textarea">
                             <!-- Due to more textarea, I got an error so I changed the tag name of this textarea into changeit. -->
                             <changeit cols="30" rows="10" placeholder="Message.." required></changeit>
                         </div>
                         <div class="button">
-                            <button type="submit">Send message</button>
+                            <button type="submit" id="send-msg">Send message</button>
                         </div>
+
+    
+
                     </form>
                 </div>
             </div>

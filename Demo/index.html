@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <style>
 * {
   box-sizing: border-box;
@@ -45,9 +46,34 @@ body {
   background: #ddd;
   color: black;
 }
+.fas{
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: crimson;
+  top: 21px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 45px;
+  z-index: 9999;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  border-bottom-width: 2px;
+}
+.fas:hover {
+  background: rgb(177, 93, 54);
+}
 </style>
 </head>
 <body>
+
+  <i onclick="goBack()" class="fas fa-angle-double-left"></i>
+
+  <script>
+    function goBack() {
+      window.history.back();
+  }
+  </script>
 
 <video autoplay muted loop id="myVideo">
   <source src="King.mp4" type="video/mp4">

@@ -37,3 +37,20 @@ h1{
 .typing, .typing2{
   color: rgb(255, 255, 255);
 }
+.fas{
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: crimson;
+  top: 21px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 45px;
+  z-index: 9999;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  border-bottom-width: 2px;
+}
+.fas:hover {
+  background: rgb(177, 93, 54);
+}
